@@ -51,10 +51,10 @@ namespace Db
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label4.Location = new System.Drawing.Point(190, 10);
+            this.label4.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(175, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(505, 34);
+            this.label4.Size = new System.Drawing.Size(576, 33);
             this.label4.TabIndex = 5;
             this.label4.Text = "HCSスポーツクラブ会員登録システム";
             // 
@@ -62,11 +62,11 @@ namespace Db
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Orange;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 30F);
+            this.label3.Font = new System.Drawing.Font("ＭＳ ゴシック", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(280, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(322, 50);
+            this.label3.Size = new System.Drawing.Size(328, 50);
             this.label3.TabIndex = 4;
             this.label3.Text = "会員情報変更";
             // 
@@ -84,7 +84,7 @@ namespace Db
             // ReturnButton
             // 
             this.ReturnButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.ReturnButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.ReturnButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ReturnButton.ForeColor = System.Drawing.Color.Indigo;
             this.ReturnButton.Location = new System.Drawing.Point(600, 390);
             this.ReturnButton.Name = "ReturnButton";
@@ -97,9 +97,9 @@ namespace Db
             // UpdateButton
             // 
             this.UpdateButton.BackColor = System.Drawing.SystemColors.Highlight;
-            this.UpdateButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.UpdateButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.UpdateButton.ForeColor = System.Drawing.Color.Black;
-            this.UpdateButton.Location = new System.Drawing.Point(50, 365);
+            this.UpdateButton.Location = new System.Drawing.Point(40, 370);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(200, 80);
             this.UpdateButton.TabIndex = 28;
@@ -140,8 +140,8 @@ namespace Db
             // EndButton
             // 
             this.EndButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.EndButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.EndButton.ForeColor = System.Drawing.Color.DarkRed;
+            this.EndButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.EndButton.ForeColor = System.Drawing.Color.Red;
             this.EndButton.Location = new System.Drawing.Point(750, 390);
             this.EndButton.Name = "EndButton";
             this.EndButton.Size = new System.Drawing.Size(130, 60);
@@ -152,21 +152,21 @@ namespace Db
             // 
             // UpdateNumber
             // 
-            this.UpdateNumber.Location = new System.Drawing.Point(46, 330);
+            this.UpdateNumber.Location = new System.Drawing.Point(45, 330);
             this.UpdateNumber.Name = "UpdateNumber";
             this.UpdateNumber.Size = new System.Drawing.Size(396, 22);
             this.UpdateNumber.TabIndex = 23;
             // 
             // UpdateAddress
             // 
-            this.UpdateAddress.Location = new System.Drawing.Point(46, 266);
+            this.UpdateAddress.Location = new System.Drawing.Point(45, 266);
             this.UpdateAddress.Name = "UpdateAddress";
             this.UpdateAddress.Size = new System.Drawing.Size(396, 22);
             this.UpdateAddress.TabIndex = 22;
             // 
             // UpdateName
             // 
-            this.UpdateName.Location = new System.Drawing.Point(46, 202);
+            this.UpdateName.Location = new System.Drawing.Point(45, 202);
             this.UpdateName.Name = "UpdateName";
             this.UpdateName.Size = new System.Drawing.Size(396, 22);
             this.UpdateName.TabIndex = 21;
@@ -183,7 +183,7 @@ namespace Db
             // 
             // UpdateId
             // 
-            this.UpdateId.Location = new System.Drawing.Point(46, 140);
+            this.UpdateId.Location = new System.Drawing.Point(45, 140);
             this.UpdateId.Name = "UpdateId";
             this.UpdateId.Size = new System.Drawing.Size(396, 22);
             this.UpdateId.TabIndex = 31;
@@ -191,9 +191,9 @@ namespace Db
             // LoadButton
             // 
             this.LoadButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.LoadButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.LoadButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.LoadButton.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.LoadButton.Location = new System.Drawing.Point(310, 390);
+            this.LoadButton.Location = new System.Drawing.Point(315, 390);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(130, 60);
             this.LoadButton.TabIndex = 33;
@@ -233,7 +233,7 @@ namespace Db
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Name = "UpdateForm";
-            this.Text = "Form1";
+            this.Text = "UpdateForm";
             ((System.ComponentModel.ISupportInitialize)(this.MemberInformationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

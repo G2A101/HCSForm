@@ -39,6 +39,12 @@ namespace Db
                     cmd.ExecuteNonQuery();
                     // コミット
                     trans.Commit();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("削除が完了しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
                 }
             }
 

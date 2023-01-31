@@ -44,28 +44,28 @@ namespace Db
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 30F);
+            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.Color.Crimson;
             this.label3.Location = new System.Drawing.Point(280, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(322, 50);
+            this.label3.Size = new System.Drawing.Size(328, 50);
             this.label3.TabIndex = 0;
-            this.label3.Text = "会員登録管理";
+            this.label3.Text = "会員情報管理";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label4.Location = new System.Drawing.Point(190, 10);
+            this.label4.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(175, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(505, 34);
+            this.label4.Size = new System.Drawing.Size(576, 33);
             this.label4.TabIndex = 1;
             this.label4.Text = "HCSスポーツクラブ会員登録システム";
             // 
             // InsertButton
             // 
             this.InsertButton.BackColor = System.Drawing.Color.Orange;
-            this.InsertButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.InsertButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.InsertButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.InsertButton.Location = new System.Drawing.Point(33, 177);
             this.InsertButton.Name = "InsertButton";
@@ -78,7 +78,7 @@ namespace Db
             // SearchButton
             // 
             this.SearchButton.BackColor = System.Drawing.Color.Orange;
-            this.SearchButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.SearchButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.SearchButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.SearchButton.Location = new System.Drawing.Point(243, 177);
             this.SearchButton.Name = "SearchButton";
@@ -91,7 +91,7 @@ namespace Db
             // UpdateButton
             // 
             this.UpdateButton.BackColor = System.Drawing.Color.Orange;
-            this.UpdateButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.UpdateButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.UpdateButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.UpdateButton.Location = new System.Drawing.Point(452, 177);
             this.UpdateButton.Name = "UpdateButton";
@@ -104,7 +104,7 @@ namespace Db
             // DeleteButton
             // 
             this.DeleteButton.BackColor = System.Drawing.Color.Orange;
-            this.DeleteButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.DeleteButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.DeleteButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.DeleteButton.Location = new System.Drawing.Point(663, 177);
             this.DeleteButton.Name = "DeleteButton";
@@ -117,7 +117,7 @@ namespace Db
             // EndButton
             // 
             this.EndButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.EndButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.EndButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.EndButton.ForeColor = System.Drawing.Color.Red;
             this.EndButton.Location = new System.Drawing.Point(750, 390);
             this.EndButton.Name = "EndButton";
@@ -130,7 +130,7 @@ namespace Db
             // ReturnButton
             // 
             this.ReturnButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.ReturnButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.ReturnButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ReturnButton.ForeColor = System.Drawing.Color.Indigo;
             this.ReturnButton.Location = new System.Drawing.Point(600, 390);
             this.ReturnButton.Name = "ReturnButton";
@@ -144,7 +144,7 @@ namespace Db
             // 
             this.DetaListButton.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             this.DetaListButton.BackColor = System.Drawing.SystemColors.Highlight;
-            this.DetaListButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.DetaListButton.Font = new System.Drawing.Font("UD デジタル 教科書体 NP-B", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.DetaListButton.ForeColor = System.Drawing.Color.Yellow;
             this.DetaListButton.Location = new System.Drawing.Point(12, 361);
             this.DetaListButton.Name = "DetaListButton";
@@ -156,7 +156,7 @@ namespace Db
             // 
             // SubMenu
             // 
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(882, 453);
             this.Controls.Add(this.DetaListButton);
             this.Controls.Add(this.ReturnButton);
@@ -167,7 +167,10 @@ namespace Db
             this.Controls.Add(this.InsertButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SubMenu";
+            this.Text = "SubMenu";
+            this.Load += new System.EventHandler(this.SubMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

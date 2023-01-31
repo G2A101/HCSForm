@@ -32,6 +32,13 @@ namespace Db
                         // name = 名前　address = 住所　number = 電話番号
                         "CREATE TABLE t_product(id INTEGER  PRIMARY KEY AUTOINCREMENT,  name TEXT, address TEXT, number TEXT)";
                     command.ExecuteNonQuery();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("テーブルを作成しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
+
                 }
                 con.Close();
             }
@@ -63,6 +70,14 @@ namespace Db
                     cmd.ExecuteNonQuery();
                     // コミット
                     trans.Commit();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("登録が完了しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
+
+
                 }
             }
         }
@@ -114,6 +129,12 @@ namespace Db
                     cmd.ExecuteNonQuery();
                     // コミット
                     trans.Commit();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("変更が完了しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
                 }
             }
         }
@@ -139,6 +160,12 @@ namespace Db
                     cmd.ExecuteNonQuery();
                     // コミット
                     trans.Commit();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("削除が完了しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
                 }
             }
         }

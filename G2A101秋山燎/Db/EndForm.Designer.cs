@@ -48,7 +48,7 @@ namespace Db
             // Yes
             // 
             this.Yes.BackColor = System.Drawing.Color.Salmon;
-            this.Yes.Font = new System.Drawing.Font("MS UI Gothic", 40F);
+            this.Yes.Font = new System.Drawing.Font("ＭＳ ゴシック", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Yes.Location = new System.Drawing.Point(55, 210);
             this.Yes.Name = "Yes";
             this.Yes.Size = new System.Drawing.Size(320, 120);
@@ -60,7 +60,7 @@ namespace Db
             // No
             // 
             this.No.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.No.Font = new System.Drawing.Font("MS UI Gothic", 40F);
+            this.No.Font = new System.Drawing.Font("ＭＳ ゴシック", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.No.ForeColor = System.Drawing.SystemColors.InfoText;
             this.No.Location = new System.Drawing.Point(435, 210);
             this.No.Name = "No";
@@ -89,7 +89,7 @@ namespace Db
             this.Controls.Add(this.No);
             this.Controls.Add(this.Yes);
             this.Name = "EndForm";
-            this.Text = "Form2";
+            this.Text = "EndForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

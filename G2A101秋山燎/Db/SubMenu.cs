@@ -110,5 +110,9 @@ namespace Db
             f2.Show();
         }
 
+        private void SubMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

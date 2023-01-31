@@ -16,7 +16,7 @@ namespace Db
         }
 
         /// <summary>
-        /// 「会員登録管理」ボタンを押すと、サブメニュー画面に画面遷移する。
+        /// 「会員情報管理」ボタンを押すと、サブメニュー画面に遷移する。
         /// </summary>
         private void SubMenuClick(object sender, EventArgs e)
         {
@@ -53,7 +53,13 @@ namespace Db
                             // name = 名前　address = 住所　number = 電話番号
                             "CREATE TABLE t_product(id INTEGER  PRIMARY KEY AUTOINCREMENT,  name TEXT, address TEXT, number TEXT)";
                         command.ExecuteNonQuery();
-                    }
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("テーブルを作成しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
+                }
                     con.Close();
                 }
             

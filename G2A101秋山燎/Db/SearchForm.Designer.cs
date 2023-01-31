@@ -44,10 +44,10 @@ namespace Db
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label4.Location = new System.Drawing.Point(190, 10);
+            this.label4.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(175, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(505, 34);
+            this.label4.Size = new System.Drawing.Size(576, 33);
             this.label4.TabIndex = 5;
             this.label4.Text = "HCSスポーツクラブ会員登録システム";
             // 
@@ -55,11 +55,11 @@ namespace Db
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Orange;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 30F);
+            this.label3.Font = new System.Drawing.Font("ＭＳ ゴシック", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(335, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(222, 50);
+            this.label3.Size = new System.Drawing.Size(226, 50);
             this.label3.TabIndex = 4;
             this.label3.Text = "会員検索";
             // 
@@ -67,7 +67,7 @@ namespace Db
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label1.Location = new System.Drawing.Point(240, 150);
+            this.label1.Location = new System.Drawing.Point(240, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 34);
             this.label1.TabIndex = 13;
@@ -75,15 +75,15 @@ namespace Db
             // 
             // SearchId
             // 
-            this.SearchId.Location = new System.Drawing.Point(245, 190);
+            this.SearchId.Location = new System.Drawing.Point(245, 180);
             this.SearchId.Name = "SearchId";
-            this.SearchId.Size = new System.Drawing.Size(396, 22);
+            this.SearchId.Size = new System.Drawing.Size(400, 22);
             this.SearchId.TabIndex = 12;
             // 
             // Modoru
             // 
             this.Modoru.BackColor = System.Drawing.Color.DarkCyan;
-            this.Modoru.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.Modoru.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Modoru.ForeColor = System.Drawing.Color.Indigo;
             this.Modoru.Location = new System.Drawing.Point(600, 390);
             this.Modoru.Name = "Modoru";
@@ -96,9 +96,9 @@ namespace Db
             // SearchButton
             // 
             this.SearchButton.BackColor = System.Drawing.SystemColors.Highlight;
-            this.SearchButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.SearchButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.SearchButton.ForeColor = System.Drawing.Color.Black;
-            this.SearchButton.Location = new System.Drawing.Point(335, 360);
+            this.SearchButton.Location = new System.Drawing.Point(345, 370);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Size = new System.Drawing.Size(200, 80);
             this.SearchButton.TabIndex = 17;
@@ -109,8 +109,8 @@ namespace Db
             // EndButton
             // 
             this.EndButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.EndButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.EndButton.ForeColor = System.Drawing.Color.DarkRed;
+            this.EndButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.EndButton.ForeColor = System.Drawing.Color.Red;
             this.EndButton.Location = new System.Drawing.Point(750, 390);
             this.EndButton.Name = "EndButton";
             this.EndButton.Size = new System.Drawing.Size(130, 60);
@@ -122,20 +122,20 @@ namespace Db
             // MemberInformationDataGridView
             // 
             this.MemberInformationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.MemberInformationDataGridView.Location = new System.Drawing.Point(245, 230);
+            this.MemberInformationDataGridView.Location = new System.Drawing.Point(245, 225);
             this.MemberInformationDataGridView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MemberInformationDataGridView.Name = "MemberInformationDataGridView";
             this.MemberInformationDataGridView.RowHeadersWidth = 51;
             this.MemberInformationDataGridView.RowTemplate.Height = 29;
-            this.MemberInformationDataGridView.Size = new System.Drawing.Size(396, 112);
+            this.MemberInformationDataGridView.Size = new System.Drawing.Size(400, 130);
             this.MemberInformationDataGridView.TabIndex = 19;
             // 
             // LoadButton
             // 
             this.LoadButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.LoadButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.LoadButton.ForeColor = System.Drawing.Color.Indigo;
-            this.LoadButton.Location = new System.Drawing.Point(700, 250);
+            this.LoadButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.LoadButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.LoadButton.Location = new System.Drawing.Point(675, 250);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(130, 60);
             this.LoadButton.TabIndex = 20;
@@ -159,7 +159,7 @@ namespace Db
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Name = "SearchForm";
-            this.Text = "Form1";
+            this.Text = "SearchForm";
             ((System.ComponentModel.ISupportInitialize)(this.MemberInformationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

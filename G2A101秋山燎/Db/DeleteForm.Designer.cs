@@ -44,10 +44,10 @@ namespace Db
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label4.Location = new System.Drawing.Point(190, 10);
+            this.label4.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(175, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(505, 34);
+            this.label4.Size = new System.Drawing.Size(576, 33);
             this.label4.TabIndex = 5;
             this.label4.Text = "HCSスポーツクラブ会員登録システム";
             // 
@@ -55,20 +55,20 @@ namespace Db
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Orange;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 30F);
+            this.label3.Font = new System.Drawing.Font("ＭＳ ゴシック", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(335, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(222, 50);
+            this.label3.Size = new System.Drawing.Size(226, 50);
             this.label3.TabIndex = 4;
             this.label3.Text = "会員削除";
             // 
             // LoadButton
             // 
             this.LoadButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.LoadButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.LoadButton.ForeColor = System.Drawing.Color.Indigo;
-            this.LoadButton.Location = new System.Drawing.Point(700, 250);
+            this.LoadButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.LoadButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.LoadButton.Location = new System.Drawing.Point(675, 250);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(130, 60);
             this.LoadButton.TabIndex = 27;
@@ -79,18 +79,18 @@ namespace Db
             // MemberInformationDataGridView
             // 
             this.MemberInformationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.MemberInformationDataGridView.Location = new System.Drawing.Point(245, 230);
+            this.MemberInformationDataGridView.Location = new System.Drawing.Point(245, 225);
             this.MemberInformationDataGridView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MemberInformationDataGridView.Name = "MemberInformationDataGridView";
             this.MemberInformationDataGridView.RowHeadersWidth = 51;
             this.MemberInformationDataGridView.RowTemplate.Height = 29;
-            this.MemberInformationDataGridView.Size = new System.Drawing.Size(396, 112);
+            this.MemberInformationDataGridView.Size = new System.Drawing.Size(400, 130);
             this.MemberInformationDataGridView.TabIndex = 26;
             // 
             // ReturnButton
             // 
             this.ReturnButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.ReturnButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.ReturnButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ReturnButton.ForeColor = System.Drawing.Color.Indigo;
             this.ReturnButton.Location = new System.Drawing.Point(600, 390);
             this.ReturnButton.Name = "ReturnButton";
@@ -103,9 +103,9 @@ namespace Db
             // DeleteButton
             // 
             this.DeleteButton.BackColor = System.Drawing.SystemColors.Highlight;
-            this.DeleteButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.DeleteButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.DeleteButton.ForeColor = System.Drawing.Color.Black;
-            this.DeleteButton.Location = new System.Drawing.Point(335, 360);
+            this.DeleteButton.Location = new System.Drawing.Point(345, 370);
             this.DeleteButton.Name = "DeleteButton";
             this.DeleteButton.Size = new System.Drawing.Size(200, 80);
             this.DeleteButton.TabIndex = 24;
@@ -116,8 +116,8 @@ namespace Db
             // EndButton
             // 
             this.EndButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.EndButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.EndButton.ForeColor = System.Drawing.Color.DarkRed;
+            this.EndButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.EndButton.ForeColor = System.Drawing.Color.Red;
             this.EndButton.Location = new System.Drawing.Point(750, 390);
             this.EndButton.Name = "EndButton";
             this.EndButton.Size = new System.Drawing.Size(130, 60);
@@ -130,7 +130,7 @@ namespace Db
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 20F);
-            this.label1.Location = new System.Drawing.Point(240, 150);
+            this.label1.Location = new System.Drawing.Point(240, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 34);
             this.label1.TabIndex = 22;
@@ -138,9 +138,9 @@ namespace Db
             // 
             // DeleteId
             // 
-            this.DeleteId.Location = new System.Drawing.Point(245, 190);
+            this.DeleteId.Location = new System.Drawing.Point(245, 180);
             this.DeleteId.Name = "DeleteId";
-            this.DeleteId.Size = new System.Drawing.Size(396, 22);
+            this.DeleteId.Size = new System.Drawing.Size(400, 22);
             this.DeleteId.TabIndex = 21;
             // 
             // DeleteForm
@@ -159,7 +159,7 @@ namespace Db
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Name = "DeleteForm";
-            this.Text = "sakuzyo";
+            this.Text = "DeleteForm";
             ((System.ComponentModel.ISupportInitialize)(this.MemberInformationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

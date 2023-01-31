@@ -41,20 +41,20 @@ namespace Db
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Cursor = System.Windows.Forms.Cursors.SizeAll;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 30F);
+            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label1.Location = new System.Drawing.Point(300, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 50);
+            this.label1.Size = new System.Drawing.Size(283, 50);
             this.label1.TabIndex = 0;
             this.label1.Text = "メインメニュー";
             // 
             // EndButton
             // 
             this.EndButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.EndButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.EndButton.ForeColor = System.Drawing.Color.DarkRed;
+            this.EndButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.EndButton.ForeColor = System.Drawing.Color.Red;
             this.EndButton.Location = new System.Drawing.Point(750, 390);
             this.EndButton.Name = "EndButton";
             this.EndButton.Size = new System.Drawing.Size(130, 60);
@@ -66,30 +66,30 @@ namespace Db
             // SubMenu
             // 
             this.SubMenu.BackColor = System.Drawing.Color.SandyBrown;
-            this.SubMenu.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.SubMenu.Font = new System.Drawing.Font("ＭＳ ゴシック", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.SubMenu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.SubMenu.Location = new System.Drawing.Point(40, 150);
             this.SubMenu.Name = "SubMenu";
             this.SubMenu.Size = new System.Drawing.Size(350, 200);
             this.SubMenu.TabIndex = 2;
-            this.SubMenu.Text = "会員登録管理";
+            this.SubMenu.Text = "会員情報管理";
             this.SubMenu.UseVisualStyleBackColor = false;
             this.SubMenu.Click += new System.EventHandler(this.SubMenuClick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.label2.Font = new System.Drawing.Font("ＭＳ ゴシック", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.Location = new System.Drawing.Point(175, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(505, 34);
+            this.label2.Size = new System.Drawing.Size(576, 34);
             this.label2.TabIndex = 3;
             this.label2.Text = "HCSスポーツクラブ会員登録システム";
             // 
             // CreateTableButton
             // 
             this.CreateTableButton.BackColor = System.Drawing.Color.SandyBrown;
-            this.CreateTableButton.Font = new System.Drawing.Font("MS UI Gothic", 20F);
+            this.CreateTableButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.CreateTableButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CreateTableButton.Location = new System.Drawing.Point(480, 150);
             this.CreateTableButton.Name = "CreateTableButton";
@@ -111,7 +111,7 @@ namespace Db
             this.Controls.Add(this.EndButton);
             this.Controls.Add(this.label1);
             this.Name = "MainMenu";
-            this.Text = "Form2";
+            this.Text = "MainMenu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -29,6 +29,12 @@ namespace Db
                 var adapter = new SQLiteDataAdapter("SELECT * FROM t_product WHERE id = " + SearchId.Text, con);
                 adapter.Fill(dataTable);
                 MemberInformationDataGridView.DataSource = dataTable;
+
+                //メッセージボックスを表示する。
+                MessageBox.Show("会員情報を検索しました。",
+                    "",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Asterisk);
             }
         }
 
@@ -75,5 +81,6 @@ namespace Db
             f2.Show();
         }
 
+      
     }
 }

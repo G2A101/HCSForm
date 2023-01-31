@@ -57,24 +57,28 @@ namespace Db
             // 
             // CreateButton
             // 
+            this.CreateButton.BackColor = System.Drawing.Color.Gold;
+            this.CreateButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.CreateButton.Location = new System.Drawing.Point(12, 27);
             this.CreateButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CreateButton.Name = "CreateButton";
             this.CreateButton.Size = new System.Drawing.Size(170, 60);
             this.CreateButton.TabIndex = 0;
             this.CreateButton.Text = "テーブル作成";
-            this.CreateButton.UseVisualStyleBackColor = true;
+            this.CreateButton.UseVisualStyleBackColor = false;
             this.CreateButton.Click += new System.EventHandler(this.CreateClick);
             // 
             // InsertButton
             // 
+            this.InsertButton.BackColor = System.Drawing.Color.Gold;
+            this.InsertButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.InsertButton.Location = new System.Drawing.Point(198, 27);
             this.InsertButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InsertButton.Name = "InsertButton";
             this.InsertButton.Size = new System.Drawing.Size(170, 60);
             this.InsertButton.TabIndex = 1;
             this.InsertButton.Text = "データ追加";
-            this.InsertButton.UseVisualStyleBackColor = true;
+            this.InsertButton.UseVisualStyleBackColor = false;
             this.InsertButton.Click += new System.EventHandler(this.InsertClick);
             // 
             // InsertName
@@ -115,24 +119,28 @@ namespace Db
             // 
             // LoadButton
             // 
+            this.LoadButton.BackColor = System.Drawing.Color.Gold;
+            this.LoadButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.LoadButton.Location = new System.Drawing.Point(198, 112);
             this.LoadButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(170, 60);
             this.LoadButton.TabIndex = 7;
             this.LoadButton.Text = "データ読み込み";
-            this.LoadButton.UseVisualStyleBackColor = true;
+            this.LoadButton.UseVisualStyleBackColor = false;
             this.LoadButton.Click += new System.EventHandler(this.LoadClick);
             // 
             // UpdateButton
             // 
+            this.UpdateButton.BackColor = System.Drawing.Color.Gold;
+            this.UpdateButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.UpdateButton.Location = new System.Drawing.Point(198, 286);
             this.UpdateButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(170, 60);
             this.UpdateButton.TabIndex = 8;
             this.UpdateButton.Text = "データ修正";
-            this.UpdateButton.UseVisualStyleBackColor = true;
+            this.UpdateButton.UseVisualStyleBackColor = false;
             this.UpdateButton.Click += new System.EventHandler(this.UpdateClick);
             // 
             // Id2
@@ -155,13 +163,15 @@ namespace Db
             // 
             // DataDeleteButton
             // 
+            this.DataDeleteButton.BackColor = System.Drawing.Color.Gold;
+            this.DataDeleteButton.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.DataDeleteButton.Location = new System.Drawing.Point(198, 378);
             this.DataDeleteButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DataDeleteButton.Name = "DataDeleteButton";
             this.DataDeleteButton.Size = new System.Drawing.Size(170, 60);
             this.DataDeleteButton.TabIndex = 15;
             this.DataDeleteButton.Text = "データ削除";
-            this.DataDeleteButton.UseVisualStyleBackColor = true;
+            this.DataDeleteButton.UseVisualStyleBackColor = false;
             this.DataDeleteButton.Click += new System.EventHandler(this.DataDeleteClick);
             // 
             // InsertNumber
@@ -268,7 +278,7 @@ namespace Db
             // ReturnButton
             // 
             this.ReturnButton.BackColor = System.Drawing.Color.DarkCyan;
-            this.ReturnButton.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.ReturnButton.Font = new System.Drawing.Font("ＭＳ 明朝", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ReturnButton.ForeColor = System.Drawing.Color.Indigo;
             this.ReturnButton.Location = new System.Drawing.Point(750, 390);
             this.ReturnButton.Name = "ReturnButton";
@@ -309,7 +319,7 @@ namespace Db
             this.Controls.Add(this.CreateButton);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DataList";
-            this.Text = "Form1";
+            this.Text = "DataList";
             ((System.ComponentModel.ISupportInitialize)(this.MemberInformationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

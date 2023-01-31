@@ -44,6 +44,12 @@ namespace Db
                     cmd.ExecuteNonQuery();
                     // コミット
                     trans.Commit();
+
+                    //メッセージボックスを表示する。
+                    MessageBox.Show("登録が完了しました。",
+                        "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Asterisk);
                 }
             }
         }
